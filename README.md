@@ -9,6 +9,17 @@ This folder contains all of the labelled peaks from the data, more precisely it 
 In the Peak Detection notebook there is a section that allows one to create a label of 0 or 1 for each time, 0 if a peak is absent at that point,
 1 if the peak is present.
 
+# Peak_Labelling.ipynb
+This notebook allows one to label the peaks in the dataset
+
+1) Import the data
+2) Create a dataframe with all of the data inserted
+3) Find Inflection Points
+4) Find Peaks and Label time at which they are present
+5) Import the data
+
+NOTE: This file should be run only to create more data with labelled peaks, otherwise just use the data in the peaks folder.
+
 # Artefact_Detection.ipynb
 This notebook allows one to train a model to detect the artifacts in the data.
 
